@@ -17,16 +17,18 @@ public class BDKleys : MonoBehaviour
         public float kleysVELM; //velocidad maxima
     }
 
-
+    // kleys1.kleysV = 50;
     kleys kleys1 = new kleys();
 
     //objetos (armas pociones etc) con los que interactuara kleys
-    
+
     //Armas
     Batemagico BateM = new Batemagico();
     Espadaenllamas Espadaenllamas1 = new Espadaenllamas();
     EspadaBastarda EBastarda = new EspadaBastarda();
     Espadabastardamillamentos EBMIL = new Espadabastardamillamentos();
+    Lanzadepenas lanzaP = new Lanzadepenas();
+    Cimitarraelectrica cimi = new Cimitarraelectrica();
 
     //Pociones
     PVivaLavida PRegeneracion = new PVivaLavida();
@@ -39,9 +41,8 @@ public class BDKleys : MonoBehaviour
 
     //Armadura etc
     UniformeZicagrea UniformeMagico = new UniformeZicagrea();
-    UniformePortero UniformeP = new UniformePortero();
-
-
+    UniformePortero uniformeP = new UniformePortero();
+   
 
     //enemigos con los que kleys interacturara
     Jefeportero jefep = new Jefeportero();
@@ -66,14 +67,27 @@ public class BDKleys : MonoBehaviour
    
     }
 
+
+
     //alteraciones de estado por armas
 
     public void AltEstadoBateM() // bate magico
     {
         kleys1.kleysD = kleys1.kleysD + BateM.bateD;
         kleys1.kleysVM = kleys1.kleysVM + BateM.aumentoV;
+        kleys1.kleysV = kleys1.kleysV + BateM.aumentoV;
         kleys1.kleysA = kleys1.kleysA + BateM.bateA;
         kleys1.ATKMK = kleys1.ATKMK + BateM.bateA;
+    }
+    public void AltEstadoLanzap()
+    {
+        kleys1.kleysA = kleys1.kleysA + lanzaP.ATK;
+        kleys1.ATKMK = kleys1.ATKMK + lanzaP.ATK;
+    }
+    public void AltEstadoCimi()
+    {
+        kleys1.kleysA = kleys1.kleysA + cimi.ATK;
+        kleys1.ATKMK = kleys1.ATKMK + cimi.ATK;
     }
     public void AltEstadoEspadaLLamas() // espada en llamas
     {
@@ -130,7 +144,7 @@ public class BDKleys : MonoBehaviour
     public void Uniformezicagrea()
     {
         kleys1.kleysA = kleys1.kleysA + UniformeMagico.UniformemagicA;
-        kleys1.ATKMK = kleys1.
+        kleys1.ATKMK = kleys1.ATKMK + UniformeMagico.UniformemagicA;
         kleys1.kleysD = kleys1.kleysD + UniformeMagico.UniformemagicD;
     }
 

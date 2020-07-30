@@ -5,6 +5,7 @@ using UnityEngine;
 public class UniformePortero : MonoBehaviour
 {
     public float defensa = 4;
+
     // Start is called before the first frame update
     void Start()
     {
