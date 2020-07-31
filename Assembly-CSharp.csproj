@@ -63,20 +63,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Codigo\BD Armas\Bate magico.cs" />
-    <Compile Include="Assets\Codigo\BD Armas\Cimitarra electrica.cs" />
-    <Compile Include="Assets\Codigo\BD Armas\Espada Bastarda.cs" />
-    <Compile Include="Assets\Codigo\BD Armas\Espada bastarda mil lamentos.cs" />
-    <Compile Include="Assets\Codigo\BD Armas\Espada bendita.cs" />
-    <Compile Include="Assets\Codigo\BD Armas\Espada en llamas.cs" />
-    <Compile Include="Assets\Codigo\BD Armas\Guante de los mil lamentos.cs" />
-    <Compile Include="Assets\Codigo\BD Armas\Lanza de penas.cs" />
-    <Compile Include="Assets\Codigo\BD Equipo Armaduras\Uniforme Portero.cs" />
-    <Compile Include="Assets\Codigo\BD Equipo Armaduras\Uniforme Zicagrea.cs" />
-    <Compile Include="Assets\Codigo\BD Jefes\Jefe portero.cs" />
-    <Compile Include="Assets\Codigo\BD Kleys\BD Kleys.cs" />
-    <Compile Include="Assets\Codigo\BD Objetos\P Viva La vida.cs" />
-    <Compile Include="Assets\Codigo\BD Objetos\P mamadoc.cs" />
+    <Compile Include="Assets\Codigos BD\BD Armas\Bate magico.cs" />
+    <Compile Include="Assets\Codigos BD\BD Armas\Cimitarra electrica.cs" />
+    <Compile Include="Assets\Codigos BD\BD Armas\Espada Bastarda.cs" />
+    <Compile Include="Assets\Codigos BD\BD Armas\Espada bastarda mil lamentos.cs" />
+    <Compile Include="Assets\Codigos BD\BD Armas\Espada bendita.cs" />
+    <Compile Include="Assets\Codigos BD\BD Armas\Espada en llamas.cs" />
+    <Compile Include="Assets\Codigos BD\BD Armas\Guante de los mil lamentos.cs" />
+    <Compile Include="Assets\Codigos BD\BD Armas\Lanza de penas.cs" />
+    <Compile Include="Assets\Codigos BD\BD Equipo Armaduras\Uniforme Portero.cs" />
+    <Compile Include="Assets\Codigos BD\BD Equipo Armaduras\Uniforme Zicagrea.cs" />
+    <Compile Include="Assets\Codigos BD\BD Jefes\Jefe portero.cs" />
+    <Compile Include="Assets\Codigos BD\BD Kleys\BD Kleys.cs" />
+    <Compile Include="Assets\Codigos BD\BD Objetos\P Viva La vida.cs" />
+    <Compile Include="Assets\Codigos BD\BD Objetos\P mamadoc.cs" />
+    <Compile Include="Assets\Scripts G\Canvas botones\ControladorBoton.cs" />
+    <Compile Include="Assets\Scripts G\Canvas botones\FixCanvasAP.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
