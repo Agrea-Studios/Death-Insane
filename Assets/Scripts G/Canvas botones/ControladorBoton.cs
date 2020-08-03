@@ -6,31 +6,40 @@ using System.Threading;
 
 public class ControladorBoton : MonoBehaviour
 {
+   
+    
+    //script unico para destruir cosas de tipo (Object)
     public void CambiarEscena(string nombre)
     {
-
         print("cambiando de escena" + nombre);
         SceneManager.LoadScene(nombre);
+        
     }
 
     public void Salir()
     {
         print("SALIENDO DEL JUEGO");
-        Application.Quit();//tengo hambre
-
+        Application.Quit();
     }
 
-   public void construir(GameObject construir)
+    public void construir(GameObject construir)
     {
-        for (int i = 0; i < 1; i++)
+        Batemagico bateM = new Batemagico();
+        if(bateM.Ibag == true)
         {
-
-            Instantiate(construir);
+            for (int i = 0; i < 1; i++)
+            {
+                Instantiate(construir);
+            }
         }
+      
+        
+
     }
 
-    public void desturir(GameObject destruir)
+
+    public void desturir(Object destruirSoloEngine )
     {
-        Destroy(destruir);
+        Destroy(destruirSoloEngine);
     }
 }
