@@ -9,7 +9,7 @@ public class Batemagico : MonoBehaviour
         public float bateD = 1f; // defensa
         public float aumentoV = 10; //+10 de vida
         public bool equipado = false;
-
+        public bool Ibag = true; 
 
     // Start is called before the first frame update
     void Start()
