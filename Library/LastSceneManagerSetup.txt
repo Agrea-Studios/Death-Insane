@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/pruebas etc.unity
+- path: Assets/Scenes/Pre Alfa/av central pre alfa.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
