@@ -24,14 +24,7 @@ public class ControladorBoton : MonoBehaviour
 
     public void construir(GameObject construir)
     {
-        Batemagico bateM = new Batemagico();
-        if(bateM.Ibag == true)
-        {
-            for (int i = 0; i < 1; i++)
-            {
-                Instantiate(construir);
-            }
-        }
+ 
       
         
 
