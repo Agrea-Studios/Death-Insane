@@ -5,7 +5,7 @@ using UnityEngine;
 public class funcionesequuip 
 {
  
-    public static void AltEstadoBateM(float bateA, )
+    public static void AltEstadoBateM(float bateA)
     {
 
 
