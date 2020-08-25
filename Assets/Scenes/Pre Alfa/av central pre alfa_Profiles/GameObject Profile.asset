@@ -12,19 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1cb7e9e120078f43bce4f0b1be547a7, type: 3}
   m_Name: AmbientOcclusion
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   enabled:
     overrideState: 1
     value: 1
   mode:
     overrideState: 1
-    value: 0
+    value: 1
   intensity:
     overrideState: 1
-    value: 1.79
+    value: 3.9
   color:
     overrideState: 1
-    value: {r: 0.254717, g: 0.254717, b: 0.254717, a: 1}
+    value: {r: 1, g: 0, b: 0, a: 1}
   ambientOnly:
     overrideState: 1
     value: 1
@@ -90,7 +90,7 @@ MonoBehaviour:
     value: 1
   softKnee:
     overrideState: 1
-    value: 0.603
+    value: 0.708
   clamp:
     overrideState: 1
     value: 65472
@@ -101,11 +101,11 @@ MonoBehaviour:
     overrideState: 1
     value: 0
   color:
-    overrideState: 0
+    overrideState: 1
     value: {r: 1, g: 1, b: 1, a: 1}
   fastMode:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: 1
   dirtTexture:
     overrideState: 0
     value: {fileID: 0}
@@ -166,7 +166,7 @@ MonoBehaviour:
     value: 1
   temperature:
     overrideState: 1
-    value: 63
+    value: -7
   tint:
     overrideState: 1
     value: 44
@@ -178,7 +178,7 @@ MonoBehaviour:
     value: -4
   saturation:
     overrideState: 1
-    value: 100
+    value: 82
   brightness:
     overrideState: 0
     value: 0
@@ -217,13 +217,13 @@ MonoBehaviour:
     value: 100
   lift:
     overrideState: 1
-    value: {x: 1, y: 1, z: 1, w: -0.04494382}
+    value: {x: 1, y: 1, z: 1, w: 0.06741573}
   gamma:
     overrideState: 1
-    value: {x: 1, y: 1, z: 1, w: -0.11235955}
+    value: {x: 1, y: 1, z: 1, w: -0.29213482}
   gain:
     overrideState: 1
-    value: {x: 1, y: 1, z: 1, w: 0.20224719}
+    value: {x: 1, y: 1, z: 1, w: 0.022471907}
   masterCurve:
     overrideState: 0
     value:
