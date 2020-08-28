@@ -38,10 +38,10 @@
   <ItemGroup>
      <Compile Include="Assets\Codigos BD\BD Armas\ClasesA.cs" />
      <Compile Include="Assets\Codigos BD\BD Armas\funcionesequuip.cs" />
-     <Compile Include="Assets\Codigos BD\BD Equipo Armaduras\Uniforme Portero.cs" />
-     <Compile Include="Assets\Codigos BD\BD Equipo Armaduras\Uniforme Zicagrea.cs" />
+     <Compile Include="Assets\Codigos BD\BD Equipo Armaduras\ClasesArmaduras.cs" />
      <Compile Include="Assets\Codigos BD\BD Jefes\Jefe portero.cs" />
      <Compile Include="Assets\Codigos BD\BD Kleys\BD Kleys.cs" />
+     <Compile Include="Assets\Codigos BD\BD Objetos\ClasesObjetos.cs" />
      <Compile Include="Assets\Codigos BD\BD Objetos\P Viva La vida.cs" />
      <Compile Include="Assets\Codigos BD\BD Objetos\P mamadoc.cs" />
      <Compile Include="Assets\Scripts G\Canvas botones\ControladorBoton.cs" />
