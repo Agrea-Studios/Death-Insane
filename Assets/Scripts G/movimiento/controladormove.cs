@@ -63,12 +63,12 @@ public class controladormove : MonoBehaviour
 
         if (hinput > 0.1f)
         {
-            transform.localScale = new Vector3(-5f, 5f, 1f);
+            transform.localScale = new Vector3(6f, 7f, 1f);
         }
 
         if (hinput < -0.1f)
         {
-            transform.localScale = new Vector3(5f, 5f, 1f);
+            transform.localScale = new Vector3(-6f, 7f, 1f);
         }
 
         // Declaraciones que hacen que el personaje se mueva o se quede quiero 
@@ -135,7 +135,7 @@ public class controladormove : MonoBehaviour
                 }
                 else
                 {
-                    StartCoroutine(uykieto());
+                    rb2d.constraints = RigidbodyConstraints2D.FreezeAll;
                   
                 }
         
@@ -157,7 +157,7 @@ public class controladormove : MonoBehaviour
                 }
                 else
                 {
-                    StartCoroutine(uykieto());
+                  rb2d.constraints = RigidbodyConstraints2D.FreezeAll;
                 }
 
             }

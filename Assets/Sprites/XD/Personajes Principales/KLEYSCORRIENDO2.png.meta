@@ -20,6 +20,9 @@ TextureImporter:
   - first:
       213: -7419874804239507671
     second: KLEYSCORRIENDO2_5
+  - first:
+      213: 6483518795680111332
+    second: KLEYSCORRIENDO2_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -171,27 +174,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KLEYSCORRIENDO2_2
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 121
-        width: 38
-        height: 61
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: becc1e2996d6f73f0800000000000000
-      internalID: -900881100247544597
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: KLEYSCORRIENDO2_3
       rect:
         serializedVersion: 2
@@ -250,6 +232,27 @@ TextureImporter:
       bones: []
       spriteID: 92fde6f7d2f470990800000000000000
       internalID: -7419874804239507671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KLEYSCORRIENDO2_2
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 121
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ead4175ef51af950800000000000000
+      internalID: 6483518795680111332
       vertices: []
       indices: 
       edges: []
