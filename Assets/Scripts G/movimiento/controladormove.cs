@@ -19,7 +19,10 @@ public class controladormove : MonoBehaviour
     public bool despl;
     public bool despl2;
     public bool Exd;
-    public string nombre;
+    public string name1;
+    public bool atak;
+    public bool atak2;
+    public GameObject ColisionA;
 
     // Start is called before the first frame update
     void Start()
@@ -37,6 +40,7 @@ public class controladormove : MonoBehaviour
 
         anima.SetFloat("speed", Mathf.Abs(rb2d.velocity.x));
         anima.SetBool("TKSL", TKSL);
+        anima.SetBool("atak", atak);
         if (anima.speed >= 5)
         {
             anima.speed = 5;
@@ -80,6 +84,16 @@ public class controladormove : MonoBehaviour
         else
         {
             despl = false;
+        }
+        if(Input.GetKey(KeyCode.Mouse0))
+        { 
+             atak = true;
+             atak2 = true;
+        }
+        else
+        {
+            atak = false;
+            atak2 = false;
         }
         if (Input.GetKey(KeyCode.D))
         {
@@ -188,6 +202,13 @@ public class controladormove : MonoBehaviour
             salto = false;
         }
         Debug.Log(rb2d.velocity.x);
+
+        if(atak)
+        {
+            anima.Play("atak");
+          
+
+        }
     }
 
     void OnBecameInvisible()

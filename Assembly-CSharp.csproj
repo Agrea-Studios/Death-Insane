@@ -47,6 +47,7 @@
      <Compile Include="Assets\Scripts G\Canvas botones\ControladorBoton.cs" />
      <Compile Include="Assets\Scripts G\Canvas botones\FixCanvasAP.cs" />
      <Compile Include="Assets\Scripts G\camara.cs" />
+     <Compile Include="Assets\Scripts G\movimiento\ColisionA.cs" />
      <Compile Include="Assets\Scripts G\movimiento\TKSL.cs" />
      <Compile Include="Assets\Scripts G\movimiento\controladormove.cs" />
      <Compile Include="Assets\menu\prefabs\iNVENTARIO AAAAA\construir2.cs" />
