@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 325678969}
   - component: {fileID: 325678968}
   m_Layer: 0
-  m_Name: Kleys0
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -154,10 +154,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f16c461753383c047b28e2eca49adff0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxspeed: 7
-  speed: 7
+  maxspeed: 8
+  speed: 8
   TKSL: 0
-  FDsalto: 3.5
+  FDsalto: 6
   movement: 1
   despl: 0
   despl2: 0
@@ -423,6 +423,85 @@ Transform:
   m_Father: {fileID: 325678973}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1695005974
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3455948946494467716, guid: 58d30b5600580bf4e8ff5dc3921323e6,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 43a3c62df3cb6a744a203979705e28ce, type: 2}
+    - target: {fileID: 3455948946494467717, guid: 58d30b5600580bf4e8ff5dc3921323e6,
+        type: 3}
+      propertyPath: m_Name
+      value: sprite_0 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455948946494467717, guid: 58d30b5600580bf4e8ff5dc3921323e6,
+        type: 3}
+      propertyPath: m_TagString
+      value: piso
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455948946494467718, guid: 58d30b5600580bf4e8ff5dc3921323e6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 34.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455948946494467718, guid: 58d30b5600580bf4e8ff5dc3921323e6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455948946494467718, guid: 58d30b5600580bf4e8ff5dc3921323e6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455948946494467718, guid: 58d30b5600580bf4e8ff5dc3921323e6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455948946494467718, guid: 58d30b5600580bf4e8ff5dc3921323e6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455948946494467718, guid: 58d30b5600580bf4e8ff5dc3921323e6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455948946494467718, guid: 58d30b5600580bf4e8ff5dc3921323e6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455948946494467718, guid: 58d30b5600580bf4e8ff5dc3921323e6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455948946494467718, guid: 58d30b5600580bf4e8ff5dc3921323e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455948946494467718, guid: 58d30b5600580bf4e8ff5dc3921323e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455948946494467718, guid: 58d30b5600580bf4e8ff5dc3921323e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 58d30b5600580bf4e8ff5dc3921323e6, type: 3}
 --- !u!1 &2075989906
 GameObject:
   m_ObjectHideFlags: 0
@@ -434,6 +513,7 @@ GameObject:
   - component: {fileID: 2075989909}
   - component: {fileID: 2075989908}
   - component: {fileID: 2075989907}
+  - component: {fileID: 2075989910}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -506,3 +586,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2075989910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2075989906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 485bc7b858b7b7248b1faf905826bffc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  follow: {fileID: 0}
+  minCamPos: {x: 0, y: 0}
+  maxCamPos: {x: 0, y: 0}

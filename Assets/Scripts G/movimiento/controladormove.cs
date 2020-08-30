@@ -136,7 +136,8 @@ public class controladormove : MonoBehaviour
                 else
                 {
                     rb2d.constraints = RigidbodyConstraints2D.FreezeAll;
-                  
+                    rb2d.constraints = RigidbodyConstraints2D.None;
+                    rb2d.constraints = RigidbodyConstraints2D.FreezeRotation;
                 }
         
             }
@@ -158,6 +159,8 @@ public class controladormove : MonoBehaviour
                 else
                 {
                   rb2d.constraints = RigidbodyConstraints2D.FreezeAll;
+                  rb2d.constraints = RigidbodyConstraints2D.None;
+                  rb2d.constraints = RigidbodyConstraints2D.FreezeRotation;
                 }
 
             }
@@ -174,11 +177,7 @@ public class controladormove : MonoBehaviour
     }
   
   
-    IEnumerator uykieto()
-    {
-        yield return new WaitForSeconds(0.5f);
-        rb2d.constraints = RigidbodyConstraints2D.FreezeAll;
-    }
+
 
     void FixedUpdate()
     {
