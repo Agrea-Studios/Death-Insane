@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{59260943-c783-4aae-e6e9-cffaf191cde2}</ProjectGuid>
+    <ProjectGuid>{996fb70f-b227-268c-5c8b-80a693a08001}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -46,6 +46,7 @@
      <Compile Include="Assets\Codigos BD\BD Objetos\P mamadoc.cs" />
      <Compile Include="Assets\Scripts G\Canvas botones\ControladorBoton.cs" />
      <Compile Include="Assets\Scripts G\Canvas botones\FixCanvasAP.cs" />
+     <Compile Include="Assets\Scripts G\Enemy1.cs" />
      <Compile Include="Assets\Scripts G\camara.cs" />
      <Compile Include="Assets\Scripts G\movimiento\ColisionA.cs" />
      <Compile Include="Assets\Scripts G\movimiento\TKSL.cs" />
@@ -598,91 +599,91 @@
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>C:/Users/jorge/Documents/GitHub/Repositorio ahora si Di/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>C:/Users/Rica1/Documents/DEATH INSANE/Death-Insane/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Runtime">
-        <HintPath>C:/Users/jorge/Documents/GitHub/Repositorio ahora si Di/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
+        <HintPath>C:/Users/Rica1/Documents/DEATH INSANE/Death-Insane/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect.Editor">
-        <HintPath>C:/Users/jorge/Documents/GitHub/Repositorio ahora si Di/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
+        <HintPath>C:/Users/Rica1/Documents/DEATH INSANE/Death-Insane/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>C:/Users/jorge/Documents/GitHub/Repositorio ahora si Di/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>C:/Users/Rica1/Documents/DEATH INSANE/Death-Insane/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Editor">
-        <HintPath>C:/Users/jorge/Documents/GitHub/Repositorio ahora si Di/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
+        <HintPath>C:/Users/Rica1/Documents/DEATH INSANE/Death-Insane/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>C:/Users/jorge/Documents/GitHub/Repositorio ahora si Di/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>C:/Users/Rica1/Documents/DEATH INSANE/Death-Insane/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Path.Editor">
-        <HintPath>C:/Users/jorge/Documents/GitHub/Repositorio ahora si Di/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
+        <HintPath>C:/Users/Rica1/Documents/DEATH INSANE/Death-Insane/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>C:/Users/jorge/Documents/GitHub/Repositorio ahora si Di/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>C:/Users/Rica1/Documents/DEATH INSANE/Death-Insane/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>C:/Users/jorge/Documents/GitHub/Repositorio ahora si Di/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>C:/Users/Rica1/Documents/DEATH INSANE/Death-Insane/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Triangle.Runtime">
-        <HintPath>C:/Users/jorge/Documents/GitHub/Repositorio ahora si Di/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
+        <HintPath>C:/Users/Rica1/Documents/DEATH INSANE/Death-Insane/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="PsdPlugin">
-        <HintPath>C:/Users/jorge/Documents/GitHub/Repositorio ahora si Di/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
+        <HintPath>C:/Users/Rica1/Documents/DEATH INSANE/Death-Insane/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-        <HintPath>C:/Users/jorge/Documents/GitHub/Repositorio ahora si Di/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+        <HintPath>C:/Users/Rica1/Documents/DEATH INSANE/Death-Insane/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
-        <HintPath>C:/Users/jorge/Documents/GitHub/Repositorio ahora si Di/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+        <HintPath>C:/Users/Rica1/Documents/DEATH INSANE/Death-Insane/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>C:/Users/jorge/Documents/GitHub/Repositorio ahora si Di/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>C:/Users/Rica1/Documents/DEATH INSANE/Death-Insane/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-        <HintPath>C:/Users/jorge/Documents/GitHub/Repositorio ahora si Di/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+        <HintPath>C:/Users/Rica1/Documents/DEATH INSANE/Death-Insane/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Psdimporter.Editor">
-        <HintPath>C:/Users/jorge/Documents/GitHub/Repositorio ahora si Di/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
+        <HintPath>C:/Users/Rica1/Documents/DEATH INSANE/Death-Insane/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.001">
-        <HintPath>C:/Users/jorge/Documents/GitHub/Repositorio ahora si Di/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+        <HintPath>C:/Users/Rica1/Documents/DEATH INSANE/Death-Insane/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-        <HintPath>C:/Users/jorge/Documents/GitHub/Repositorio ahora si Di/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+        <HintPath>C:/Users/Rica1/Documents/DEATH INSANE/Death-Insane/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Runtime">
-        <HintPath>C:/Users/jorge/Documents/GitHub/Repositorio ahora si Di/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+        <HintPath>C:/Users/Rica1/Documents/DEATH INSANE/Death-Insane/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
-        <HintPath>C:/Users/jorge/Documents/GitHub/Repositorio ahora si Di/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+        <HintPath>C:/Users/Rica1/Documents/DEATH INSANE/Death-Insane/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-        <HintPath>C:/Users/jorge/Documents/GitHub/Repositorio ahora si Di/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+        <HintPath>C:/Users/Rica1/Documents/DEATH INSANE/Death-Insane/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
-        <HintPath>C:/Users/jorge/Documents/GitHub/Repositorio ahora si Di/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
+        <HintPath>C:/Users/Rica1/Documents/DEATH INSANE/Death-Insane/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect">
-        <HintPath>C:/Users/jorge/Documents/GitHub/Repositorio ahora si Di/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
+        <HintPath>C:/Users/Rica1/Documents/DEATH INSANE/Death-Insane/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Editor">
-        <HintPath>C:/Users/jorge/Documents/GitHub/Repositorio ahora si Di/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+        <HintPath>C:/Users/Rica1/Documents/DEATH INSANE/Death-Insane/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
-        <HintPath>C:/Users/jorge/Documents/GitHub/Repositorio ahora si Di/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+        <HintPath>C:/Users/Rica1/Documents/DEATH INSANE/Death-Insane/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>C:/Users/jorge/Documents/GitHub/Repositorio ahora si Di/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>C:/Users/Rica1/Documents/DEATH INSANE/Death-Insane/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Editor">
-        <HintPath>C:/Users/jorge/Documents/GitHub/Repositorio ahora si Di/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+        <HintPath>C:/Users/Rica1/Documents/DEATH INSANE/Death-Insane/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridge.001">
-        <HintPath>C:/Users/jorge/Documents/GitHub/Repositorio ahora si Di/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+        <HintPath>C:/Users/Rica1/Documents/DEATH INSANE/Death-Insane/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>C:/Users/jorge/Documents/GitHub/Repositorio ahora si Di/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>C:/Users/Rica1/Documents/DEATH INSANE/Death-Insane/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
