@@ -34,7 +34,6 @@ public class Cimitarraelectrica{
    public float ATK = 10f;
 }
 
-
 public class EspadaBastarda{
    public int ataque = 20;
     public bool equipado = false;
