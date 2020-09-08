@@ -7,6 +7,12 @@ using System.Xml;
 
 public class BDKleys : MonoBehaviour
 {
+    public JefeDemonioPortero JDP;
+    public GameObject JDPG;//gameobject
+    public float kleysv = 50f;//vida
+    public float kleysa = 5f;//ataque
+    public float kleysd = 5f;//defensa
+    public float kleysve = 5f;//velocidad
      public GameObject Clasesxd; 
     //ARMAS Rodrigo
     public ClasesA.Espadabendita espadabenditaxd;
@@ -46,8 +52,16 @@ public class BDKleys : MonoBehaviour
         //OBJETOS
             pmamadocxd = Clasesxd.GetComponentInParent<ClasesObjetos.Pmamadoc>();
             vivalavidapotion =Clasesxd.GetComponentInParent<ClasesObjetos.PVivaLavida>();
+        
+        JDPG = GameObject.Find("Enemy");
+        JDP = JDPG.GetComponentInParent<JefeDemonioPortero>();
 
 
+    }
+
+    public void restakleys(){
+        kleysv = kleysv - JDP.JefeDPA;
+        kleysv = kleysv + kleysd;
     }
 
 
