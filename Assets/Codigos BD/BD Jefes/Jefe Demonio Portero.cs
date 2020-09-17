@@ -19,7 +19,9 @@ public class JefeDemonioPortero : MonoBehaviour
         KleysBD = Ckleys.GetComponentInParent<BDKleys>();
     }
 
-    public void restajefe(){
+    public void restajefe()
+    {
+        // Por que no haces una variable que funcione como resultado de el ataque de kleys menos la defensa del jefe portero y directamente restas eso a su vida ?
         JefeDPV = JefeDPV - KleysBD.kleysa; // jefe ataca a kleys
         JefeDPV = JefeDPV + JefeDPD; 
     }
