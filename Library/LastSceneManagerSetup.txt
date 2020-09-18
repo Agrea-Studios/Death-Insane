@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/pruebas de movimiento.unity
+- path: Assets/Scenes/SB Manu.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
