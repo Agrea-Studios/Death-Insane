@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - piso
+  - Limitex
   layers:
   - Default
   - TransparentFX
