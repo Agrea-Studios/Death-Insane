@@ -14,7 +14,7 @@ public class DetectP : MonoBehaviour
     {
         if(tocao.tag =="Player")
         {
-            player.anom.SetBool("aquitoy", true);
+            player.despierta = true;
         }
     }
 
