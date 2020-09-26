@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - piso
+  - Limitex
+  - puerta
   layers:
   - Default
   - TransparentFX
@@ -39,6 +41,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: -1
+    uniqueID: 2685060317
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

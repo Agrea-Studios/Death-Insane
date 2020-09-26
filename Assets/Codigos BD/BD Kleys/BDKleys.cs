@@ -13,7 +13,7 @@ public class BDKleys : MonoBehaviour
     public float kleysa = 5f;//ataque
     public float kleysd = 5f;//defensa
     public float kleysve = 5f;//velocidad
-     public GameObject Clasesxd; 
+     public GameObject Clasesxd;
     //ARMAS Rodrigo
     public ClasesA.Espadabendita espadabenditaxd;
     public ClasesA.Espadabastardamillamentos espadabastarda1kxd;
